@@ -1,8 +1,8 @@
 bl_info = {
     "name": "B42D",
     "author": "Shreya Punjabi",
-    "version": (0,8),
-    "blender": (2, 93, 5),
+    "version": (1,0),
+    "blender": (4, 2, 1),
     "location": "View 3D > Properties > B42D",
     "description": "Sets up scene for 2D editing",
     "warning": "",
@@ -39,10 +39,10 @@ class START_B42D(bpy.types.Operator):
 
 
     def execute(self, context):
-        bpy.data.scenes["Scene"].render.engine = "BLENDER_EEVEE"
+        bpy.data.scenes["Scene"].render.engine = "BLENDER_EEVEE_NEXT"
         bpy.data.scenes["Scene"].render.film_transparent = True
         bpy.data.scenes["Scene"].view_settings.view_transform = "Standard"
-        bpy.data.worlds["World"].node_tree.nodes["Background"].inputs[0].default_value = [1.000000, 1.000000, 1.000000, 1.000000]
+        bpy.data.worlds["World"].node_tree.nodes["Background"].inputs[0].default_value = [0.000000, 0.000000, 0.000000, 0.000000]
         cam_ob = bpy.context.scene.camera
         if cam_ob.type == 'CAMERA':
             cam_ob.name = "2D Cam"
