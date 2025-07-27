@@ -19,6 +19,8 @@ It is recommended that set up is done before the default scene is altered too mu
 
 -render engine set to Eevee
 
+-world color set to pure black
+
 
 Align to Selected:
 
