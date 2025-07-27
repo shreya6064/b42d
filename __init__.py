@@ -6,7 +6,7 @@ bl_info = {
     "location": "View 3D > Properties > B42D",
     "description": "Sets up scene for 2D editing",
     "warning": "",
-    "doc_url": "",
+    "doc_url": "https://github.com/shreya6064/b42d",
     "category": "3D View",
 }
 
