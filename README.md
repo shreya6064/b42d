@@ -9,7 +9,7 @@ Addon works best with one camera in the scene.
 It is recommended that set up is done before the default scene is altered too much.
 
 
-2D settings include:
+## 2D settings include:
 
 -orthographic camera positioned directly above image, facing downward
 
@@ -22,6 +22,6 @@ It is recommended that set up is done before the default scene is altered too mu
 -world color set to pure black
 
 
-Align to Selected:
+## Align to Selected:
 
 -Aligns camera to selected image plane and alters resolution to match that of the image
