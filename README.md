@@ -2,7 +2,7 @@
 An addon that sets up some common settings I like to have when using Blender to edit in 2D
 
 IMPORTANT:
-The *Align to Selected* feature only works with planes that have been imported with the "Images as Planes" addon.
+The *Align to Selected* feature works with planes that have been imported with the "Images as Planes" addon, and matches resolution. It also works with regular planes and matches aspect ratio.
 
 Addon works best with one camera in the scene.
 
